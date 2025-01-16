@@ -45,7 +45,11 @@ Below is a screenshot of the Jupyter Notebook used in this project:
 
 Below are screenshots of the Jupyter Notebook used in this project:
 
-![Distribution of Genre](images/Distribution_of_genre.png)  
-![Proportion of Vote](images/Proportion_of_vote.png)  
-![Release Date](images/Release_date.png)
+![image](https://github.com/user-attachments/assets/836d7297-65cf-4499-b1f6-3e85f04a208e)
+![image](https://github.com/user-attachments/assets/153e305f-e440-4879-b7fa-fd184590a087)
+![image](https://github.com/user-attachments/assets/8d7557fb-177c-4fc6-b9fa-3591449bf0c0)
+
+
+
+
 
