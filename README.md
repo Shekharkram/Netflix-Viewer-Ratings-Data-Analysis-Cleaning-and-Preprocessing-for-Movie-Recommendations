@@ -3,6 +3,9 @@
 ## Overview
 This project focuses on cleaning and preparing a Netflix viewers' rating dataset to enhance its accuracy, consistency, and usability for movie recommendation systems.
 
+## Objective
+The primary objective of this project was to clean and preprocess the Netflix viewer ratings dataset to ensure its readiness for building a movie recommendation system. This involved handling missing values, removing irrelevant data, addressing outliers, and categorizing relevant features for efficient analysis.
+
 ## Dataset Exploration Summary
 - The dataset consists of 9,827 rows and 9 columns.
 - Initially, the dataset has no missing values or duplicates, making it relatively clean.
@@ -19,8 +22,30 @@ This project focuses on cleaning and preparing a Netflix viewers' rating dataset
 4. Categorized the `Vote_Average` column to facilitate proper analysis.  
 5. Cleaned and standardized the `Genre` column by handling comma-separated values and removing extra spaces.  
 6. Ensured the dataset was ready for movie recommendation model development by optimizing data structure and consistency.
+7. 7. Conducted data visualization using **Matplotlib** and **Seaborn** to create informative charts, uncover trends, and gain deeper insights into the dataset, which helped answer key questions and understand underlying patterns and relationships.
+
+## Data Visualization
+Data visualization has been conducted using **Matplotlib** and **Seaborn** to create informative charts. These visualizations helped to uncover trends and insights within the dataset, answering key questions and providing a deeper understanding of the underlying patterns and relationships. This allowed for:
+- **Exploration of rating distributions**
+- **Identification of outliers in popularity**
+- **Analysis of genre trends**
+- **Understanding movie ratings based on popularity**
+
+## Outcome
+- The dataset was cleaned and preprocessed to remove irrelevant columns and handle missing or inconsistent values.
+- Outliers were addressed, ensuring the dataset's accuracy and improving the performance of the movie recommendation system.
+- The `Genre` and `Vote_Average` columns were standardized and categorized for enhanced analysis.
+- Visualizations revealed important insights, such as rating distribution patterns and correlations between popularity and ratings.
+- The dataset is now optimized for use in movie recommendation models, facilitating better recommendations and insights.
 
 ## Screenshot
 Below is a screenshot of the Jupyter Notebook used in this project:
 
-![Jupyter Notebook Screenshot](Netflix-viewers-s-rating-Data-Preprocessing-and-Cleaning.jpeg)
+## Screenshot
+
+Below are screenshots of the Jupyter Notebook used in this project:
+
+![Distribution of Genre](images/Distribution_of_genre.png)  
+![Proportion of Vote](images/Proportion_of_vote.png)  
+![Release Date](images/Release_date.png)
+
