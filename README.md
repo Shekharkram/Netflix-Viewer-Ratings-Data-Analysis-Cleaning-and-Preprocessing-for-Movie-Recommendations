@@ -1,4 +1,4 @@
-# Netflix Viewer Ratings: Data Cleaning and Preparation for Movie Recommendations
+# Netflix Viewer Ratings: Data Analysis, Cleaning and Preprocessing for Movie Recommendations
 
 ## Overview
 This project focuses on cleaning and preparing a Netflix viewers' rating dataset to enhance its accuracy, consistency, and usability for movie recommendation systems.
