@@ -24,30 +24,37 @@ The primary objective of this project was to clean and preprocess the Netflix vi
 6. Ensured the dataset was ready for movie recommendation model development by optimizing data structure and consistency.
 7. 7. Conducted data visualization using **Matplotlib** and **Seaborn** to create informative charts, uncover trends, and gain deeper insights into the dataset, which helped answer key questions and understand underlying patterns and relationships.
 
-## Data Visualization
-Data visualization has been conducted using **Matplotlib** and **Seaborn** to create informative charts. These visualizations helped to uncover trends and insights within the dataset, answering key questions and providing a deeper understanding of the underlying patterns and relationships. This allowed for:
-- **Exploration of rating distributions**
-- **Identification of outliers in popularity**
-- **Analysis of genre trends**
-- **Understanding movie ratings based on popularity**
+## Key Metrics
+### Dataset Quality Metrics:
+- **Missing Values:** Percentage handled for each column.
+- **Duplicate Rows:** Number and percentage removed.
+- **Outliers:** Count detected and addressed in key columns like `Popularity` and `Vote_Average`.
+- **Irrelevant Data Removed:** Count of dropped columns.
 
-## Outcome
-- The dataset was cleaned and preprocessed to remove irrelevant columns and handle missing or inconsistent values.
-- Outliers were addressed, ensuring the dataset's accuracy and improving the performance of the movie recommendation system.
-- The `Genre` and `Vote_Average` columns were standardized and categorized for enhanced analysis.
-- Visualizations revealed important insights, such as rating distribution patterns and correlations between popularity and ratings.
-- The dataset is now optimized for use in movie recommendation models, facilitating better recommendations and insights.
+### Data Standardization Metrics:
+- **Formatted Dates:** Percentage of correct conversions in the `Release_Date` column.
+- **Standardized Genres:** Count of unique genres after cleaning.
+- **Categorized Ratings:** Number of categories created for `Vote_Average`.
 
-## Screenshot
-Below is a screenshot of the Jupyter Notebook used in this project:
+### Visualization Metrics:
+- **Trends Identified:** Insights into top-rated genres and seasonal viewer patterns.
+- **Viewer Engagement:** Distribution of ratings and patterns in viewer behavior.
 
-## Screenshot
+## Visualizations
+Data visualization was conducted to uncover insights and trends within the dataset. Key visualizations include:
 
-Below are screenshots of the Jupyter Notebook used in this project:
-
-![image](https://github.com/user-attachments/assets/836d7297-65cf-4499-b1f6-3e85f04a208e)
+- **Bar Charts:** Highlighted relationships in variables such as `Age Group`, `Age Group & Gender`, and `Vote_Average`.
+![image](https://github.com/user-attachments/assets/68058b52-139e-44ae-ba03-822d77d8504f)
+- **Pie Charts:** Used to compare variables such as `Season` and `Genre`.
 ![image](https://github.com/user-attachments/assets/153e305f-e440-4879-b7fa-fd184590a087)
-![image](https://github.com/user-attachments/assets/8d7557fb-177c-4fc6-b9fa-3591449bf0c0)
+- **Histogram :**
+- ![image](https://github.com/user-attachments/assets/8d7557fb-177c-4fc6-b9fa-3591449bf0c0)
+  
+## Outcome
+- A clean, structured, and standardized dataset was prepared for use in developing a movie recommendation system.
+- Insights into viewer preferences and behavior were gained through effective data visualizations.
+- The dataset is now primed for advanced analysis and modeling to enhance Netflix's recommendation capabilities.
+
 
 
 
