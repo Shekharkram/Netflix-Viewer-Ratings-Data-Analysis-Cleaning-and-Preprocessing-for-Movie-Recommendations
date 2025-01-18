@@ -41,7 +41,7 @@ The primary objective of this project was to clean and preprocess the Netflix vi
 - **Viewer Engagement:** Distribution of ratings and patterns in viewer behavior.
 
 ## Visualizations
-Data visualization was conducted to uncover insights and trends within the dataset. Key visualizations include:
+Conducted Data visualization to uncover insights and trends within the dataset. Key visualizations include:
 
 - **Bar Charts:** Highlighted relationships in variables such as `Age Group`, `Age Group & Gender`, and `Vote_Average`.
 ![image](https://github.com/user-attachments/assets/68058b52-139e-44ae-ba03-822d77d8504f)
